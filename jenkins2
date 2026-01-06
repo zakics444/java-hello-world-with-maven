@@ -4,7 +4,7 @@ pipeline{
     stages{
         stage('cloning_git_repo'){
             steps{
-                git 'https://github.com/zakics444/simple-java-maven-app.git'
+                git 'https://github.com/zakics444/java-hello-world-with-maven.git'
             }
         }
         stage('building'){

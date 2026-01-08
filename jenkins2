@@ -19,7 +19,7 @@ pipeline{
     }
 post {
   always {
-    // One or more steps need to be included within each condition's block.
+    emailext body: 'dekhle bhhaiiiii', subject: 'aise hi ', to: 'k.zaki.cs1@gmail.com'
   }
 }
 }

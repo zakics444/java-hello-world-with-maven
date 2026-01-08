@@ -19,7 +19,7 @@ pipeline{
     }
 post {
   always {
-    mail bcc: '', body: 'Please check the result', cc: '', from: '', replyTo: '', subject: 'Build result', to: 'k.zaki.cs1@gmail.com'
+    mail bcc: '', body: 'dekhle bhai', cc: '', from: '', replyTo: '', subject: 'result', to: 'k.zaki.cs1@gmail.com'
   }
 }
 }

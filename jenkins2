@@ -19,7 +19,7 @@ pipeline{
     }
 post {
   always {
-    emailext body: 'dekhle bhhaiiiii', subject: 'aise hi ', to: 'k.zaki.cs1@gmail.com'
+    mail bcc: '', body: 'Please check the result', cc: '', from: '', replyTo: '', subject: 'Build result', to: 'k.zaki.cs1@gmail.com'
   }
 }
 }
